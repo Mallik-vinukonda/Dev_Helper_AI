@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&family=Space+Grotesk:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', 'Poppins', 'Space Grotesk', sans-serif;
+}
+
+/* Custom Scrollbar for code editor */
+.code-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+.code-scrollbar::-webkit-scrollbar-thumb {
+  background: #a5b4fc;
+  border-radius: 8px;
+}

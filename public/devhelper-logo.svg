@@ -1,0 +1,14 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="devhelper-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1" />
+      <stop offset="0.5" stop-color="#A21CAF" />
+      <stop offset="1" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+  <circle cx="20" cy="20" r="18" fill="url(#devhelper-gradient)" />
+  <rect x="10" y="13" width="20" height="14" rx="4" fill="#fff" fill-opacity="0.97" />
+  <text x="20" y="25" text-anchor="middle" font-family="Space Grotesk, Inter, Poppins, sans-serif" font-size="13" font-weight="bold" fill="url(#devhelper-gradient)">{ }</text>
+  <circle cx="32" cy="12" r="3" fill="#fff" fill-opacity="0.9" />
+  <circle cx="32" cy="12" r="1.5" fill="#A21CAF" />
+</svg>
